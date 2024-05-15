@@ -1,0 +1,111 @@
+# Xcode
+# Xcode-specific files and directories
+.DS_Store
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcuserstate
+
+# macOS
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+._*
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# General C++
+# Ignore object files and binaries
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.dylib
+
+# Ignore build directories
+bin/
+obj/
+out/
+
+# Ignore CMake build directory
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Qt Creator build files
+*.autosave
+*.user
+*.creator
+*.creator.user
+
+# Ignore code coverage and profiling tools
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore logs and temporary files
+*.log
+*.temp
+*.tmp
+
+# Ignore Visual Studio Code workspace and settings
+.vscode/
+*.code-workspace
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore backup files
+*.bak
+*.swp
+*~
+*.swo
+*.swn
+
+# Ignore JetBrains IDEs settings
+.idea/
+*.iml
+*.iws
+
+# Ignore by extension
+*.class
+*.psd
+*.pdb
+*.pyc
+*.pyo
+*.sqlite
+*.sqlite3
+*.stackdump
+*.so
+
+# Ignore Catch2 single header
+tests/catch.hpp
